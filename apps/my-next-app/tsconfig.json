@@ -16,7 +16,16 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "baseUrl": ".",
+    "paths": {
+      "@apps/*": ["./src/*"]
+    }
   },
   "include": [
     "**/*.ts",

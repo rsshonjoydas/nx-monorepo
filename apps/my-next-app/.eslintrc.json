@@ -1,10 +1,21 @@
 {
   "extends": [
     "plugin:@nx/react-typescript",
+    "plugin:react/recommended",
+    "airbnb",
     "next",
     "next/core-web-vitals",
     "../../.eslintrc.json"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "react/react-in-jsx-scope": "off"
+  },
   "ignorePatterns": ["!**/*", ".next/**/*"],
   "overrides": [
     {
