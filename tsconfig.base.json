@@ -8,13 +8,19 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2015",
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "target": "es2017",
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myworkspace/ui": ["packages/ui/src/index.ts"],
+      "@myworkspace/ui/server": ["packages/ui/src/server.ts"]
+    }
   },
+  "include": ["**/*.ts"],
   "exclude": ["node_modules", "tmp"]
 }

@@ -19,6 +19,7 @@
     "^@apps/components/ui/(.*)$",
     "^@apps/components/(.*)$",
     "^@apps/(.*)$",
+    "^@myworkspace/(.*)$",
     "^@/components/ui/(.*)$",
     "^@/components/(.*)$",
     "^@/_components/(.*)$",
