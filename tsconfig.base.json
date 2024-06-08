@@ -17,8 +17,8 @@
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
-      "@myworkspace/ui": ["packages/ui/src/index.ts"],
-      "@myworkspace/ui/server": ["packages/ui/src/server.ts"]
+      "@myworkspace/ui": ["packages/ui/src/components/index.ts"],
+      "@myworkspace/ui/*": ["packages/ui/src/*"]
     }
   },
   "include": ["**/*.ts"],

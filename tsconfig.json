@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@myworkspace/ui": ["packages/ui/src/components/index.ts"],
+      "@myworkspace/ui/*": ["packages/ui/src/*"]
+    }
+  }
+}
