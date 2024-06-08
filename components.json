@@ -10,6 +10,6 @@
   },
   "aliases": {
     "components": "@myworkspace/ui/components",
-    "utils": "@myworkspace/ui/utils"
+    "utils": "@myworkspace/lib"
   }
 }
